@@ -1,19 +1,13 @@
 {
     "env": {
-        "production": {
-            "plugins": [
-                "transform-class-properties"
-            ]
-        },
-        "development": {
-            "plugins": [
-                "transform-class-properties"
-            ]
-        },
         "test": {
             "plugins": ["transform-class-properties", "transform-es2015-modules-commonjs"],
             "sourceMap": "inline"
         }
     },
+    "plugins": [
+        ["relay", { "schema": "../server/schema.graphql" }],
+        "transform-class-properties"
+    ],
     "presets": ["react"]
 }

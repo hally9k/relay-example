@@ -1,5 +1,11 @@
 {
   "scripts": {
-      "start": "(cd client && yarn start)"
+    "start": "(cd client && yarn start)"
+  },
+  "dependencies": {
+    "graphql": "^0.13.2"
+  },
+  "devDependencies": {
+    "babel-plugin-relay": "^1.6.0"
   }
 }

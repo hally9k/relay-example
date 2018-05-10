@@ -4,5 +4,8 @@
   "description": "My Graphcool Service",
   "dependencies": {
     "graphcool": "^0.11.6"
+  },
+  "devDependencies": {
+    "get-graphql-schema": "^2.1.1"
   }
 }
